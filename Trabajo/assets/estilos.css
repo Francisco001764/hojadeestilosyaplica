@@ -10,6 +10,7 @@
 
 h1 {
   font-family: Sweet;
+  text-decoration: underline;
 }
 
 p {
@@ -23,6 +24,16 @@ h3:nth-of-type(1) {
     background-color: blue;
 
 }
+
+
+h4 {
+  color: gold;
+  text-shadow: 2px 2px 18px black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
 
 p:nth-of-type(1) {
   background-color: aqua;
