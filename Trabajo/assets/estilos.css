@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Sweet;
+  src: url(../Estilo/Sweet\ Toffee.ttf);
+}
+
+@font-face {
+  font-family: Sono;
+  src: url(../Estilo/Sono-Regular.woff2);
+}
+
+h1 {
+  font-family: Sweet;
+}
+
+p {
+  font-family: Sono;
+}
+h2:nth-of-type(1) {
+    background-color: blue;
+
+}
+h3:nth-of-type(1) {
+    background-color: blue;
+
+}
+
+p:nth-of-type(1) {
+  background-color: aqua;
+}
+
+p:nth-of-type(2) {
+  background-color: darkseagreen;
+}
+a:hover {
+    background-color: blueviolet;
+    transition: background-color 0.5s;
+}
+p:hover{
+    background-color: cornflowerblue;
+    transition: background-color 0.5s;
+}
+ul li:first-child {
+    background-color: brown;
+    font-weight: bold;
+    font-style: italic;
+}
