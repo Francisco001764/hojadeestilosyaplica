@@ -46,9 +46,79 @@ a:hover {
     background-color: blueviolet;
     transition: background-color 0.5s;
 }
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+
+.container > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.nav_grid{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.content_grid{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.sidebar_grid{
+    grid-column: 3;
+    grid-row: 2/ span 3;
+}
+
+.footer_grid{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.flex_container{
+    display: flex;
+    background-color: burlywood;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.flex_container div{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+}
 p:hover{
     background-color: cornflowerblue;
     transition: background-color 0.5s;
+}
+@media print{
+     .my_photo{
+        display: none;
+     }
+
+     
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    
+    #cover{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    
+   #cover{
+        width: 80%;
+        background-color: red;
+    }
 }
 ul li:first-child {
     background-color: brown;
@@ -58,3 +128,7 @@ ul li:first-child {
     
 }
 
+
+.my_photo{
+  width: 200px;
+}
